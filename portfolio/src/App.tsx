@@ -1,12 +1,13 @@
 import Header from "./components/header/Header";
 import About from "./components/about/About";
-import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="min-h-screen bg-base-100 text-base-content">
       <Header />
-      <About />
+      <main>
+        <About />
+      </main>
     </div>
   );
 }

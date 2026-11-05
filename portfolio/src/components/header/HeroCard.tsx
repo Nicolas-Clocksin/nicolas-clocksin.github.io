@@ -1,7 +1,9 @@
 function HeroCard() {
   return (
     <div className="max-w-xl space-y-5 text-center lg:text-left">
-      <p>Full-Stack Web Developer</p>
+      <p className="text-sm font-semibold uppercase tracking-widest text-primary">
+        Full-Stack Web Developer
+      </p>
       <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
         Nicolas Clocksin
       </h1>
